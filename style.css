@@ -1,7 +1,34 @@
-* {
-    border-color: black;
+/* * {
+    outline: 2px solid black;
+} */
+
+img {
+    width: 35px;
+    height: auto;
+    filter: invert(95%) sepia(12%) saturate(1318%) hue-rotate(321deg) brightness(90%) contrast(85%);
 }
 
-.content {
-    display: grid;
+li {
+    list-style: none;
 }
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    grid-template-rows: 1fr 6fr;
+}
+
+.sidebar {
+    display: grid;
+    grid-column: 1 / 2;
+    gap: 15px;
+    background-color: #1A3636;
+    color: #D6BD98;
+}
+
+.logo, .menu-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
