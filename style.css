@@ -1,0 +1,7 @@
+* {
+    border-color: black;
+}
+
+.content {
+    display: grid;
+}
